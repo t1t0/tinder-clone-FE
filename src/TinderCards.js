@@ -3,7 +3,7 @@ import TinderCard from "react-tinder-card"
 import "./TinderCards.css"
 import axios from 'axios'
 
-axios.defaults.baseURL = 'http://localhost:8001';
+axios.defaults.baseURL = 'https://t1t0-tinder-clone.herokuapp.com/';
 
 function TinderCards(){
     const [people, setPeople] = useState([])

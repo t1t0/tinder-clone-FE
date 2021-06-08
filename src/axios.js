@@ -1,9 +1,9 @@
 import axios from 'axios'
 
 const instance = axios.create({
-    baseUrl: "http://localhost:8001"
+    baseUrl: "https://t1t0-tinder-clone.herokuapp.com/"
 })
 
-axios.defaults.baseURL = 'http://localhost:8001';
+axios.defaults.baseURL = 'https://t1t0-tinder-clone.herokuapp.com/';
 
 export default instance
